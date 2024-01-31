@@ -3,9 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
+    <link rel="stylesheet" href="../CSS/ResponsiveWeb1.css">
+    <title> Wellcome Food Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    
+    <!-----------------------------------------------NAVBAR----------------------------------------------->  
+      <div class="nav-container" >
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+          <div class="container-fluid">
+            <a class="navbar-brand" style="font-size: 3rem; font-weight: bold;" href="#">FW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link fs-4" aria-current="page" href="#showcase">Home</a>
+                <a class="nav-link fs-4" href="#about">About</a>
+                <a class="nav-link fs-4" href="#food">Category</a>
+                <a class="nav-link fs-4" aria-current="page" href="#food-menu">Menu</a>
+                <a class="nav-link fs-4" href="#testmonial">Testimonal</a>
+                <a class="nav-link fs-4" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+        <!-----------------------------------------------SHOWCASE-----------------------------------------------> 
+        <section class="showcase-area" id="showcase">
+            <div class="showcase-container">
+             <h1>Eat Right FOOD</h1>
+             <p>Eat Healthy food, it is food for your health</p>
+             <button type="button" class="btn btn-success" style="border-radius: 50px; font-size: 1.5rem;">Menu</button>
+            </div>
+        </section>
+          <!-----------------------------------------------ABOUT-----------------------------------------------> 
+        <section id="about">
+          <div class="about-wrapper container">    
+            <div class="about-text">
+              <p class="small-about">About Us</p>
+              <h2 class="fs-1">We've been making healthy food for last 10 years</h2>
+              <p class="para" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptas qui accusamus et similique consequatur sit aspernatur adipisci exercitationem eligendi a aliquam eaque, hic deserunt distinctio molestiae doloremque natus, animi ullam voluptatibus magni id quisquam iusto ut? Architecto, temporibus dolor.</p>
+            </div> 
+
+            <div class="about-img">
+              <img src="https://images.pexels.com/photos/1149021/pexels-photo-1149021.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="picture">
+            </div>
+          </div>
+        </section>
+          <!-----------------------------------------------TYPES OF FOOD-----------------------------------------------> 
+        <section id="food">
+          <h1 class="heading" >TYPES OF FOOD</h1>
+          <div class="main-container container">
+             <div class="box">
+              <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+               <div class="box-content">
+                 <h3 class="text-white">Fruits</h3>
+                 <button type="button" class="btn text-white" style=" font-size: 1.2rem; background-color: #197964; border-radius: 50px;">Learn More</button>
+               </div>
+             </div>
+
+             <div class="box">
+              <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+               <div class="box-content">
+                 <h3 class="text-white">Vegetables</h3>
+                 <button type="button" class="btn text-white" style=" font-size: 1.2rem; background-color: #197964; border-radius: 50px;">Learn More</button>
+               </div>
+             </div>
+
+             <div class="box">
+              <img src="https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+               <div class="box-content">
+                 <h3 class="text-white">Grain</h3>
+                 <button type="button" class="btn text-white" style="font-size: 1.2rem; background-color: #197964; border-radius: 50px;">Learn More</button>
+               </div>
+             </div>
+          </div>
+        </section>
+          <!-----------------------------------------------FOOD MENU-----------------------------------------------> 
+        <section id="food-menu">
+          <h2 class="food-menu-heading">
+            Food Menu
+          </h2>
+          <div class="food-menu-container container">
+            <div class="menuMainContainer">
+              <div class="food-menu-items">
+                <div class="food-image">
+                  <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="menu-picture">
+                </div>
+                <div class="food-discription">
+                  <h2 class="food-tittle">Food Menu Item 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, inventore!</p>
+                  <p class="food-price">Price: &#8377; 250</p>
+                </div>
+              </div>
+  
+              <div class="food-menu-items">
+                <div class="food-image">
+                  <img src="https://images.pexels.com/photos/1448721/pexels-photo-1448721.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="menu-picture">
+                </div>
+                <div class="food-discription">
+                  <h2 class="food-tittle">Food Menu Item 2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, inventore!</p>
+                  <p class="food-price">Price: &#8377; 250</p>
+                </div>
+              </div>
+  
+              <div class="food-menu-items">
+                <div class="food-image">
+                  <img src="https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="menu-picture">
+                </div>
+                <div class="food-discription">
+                  <h2 class="food-tittle">Food Menu Item 3</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, inventore!</p>
+                  <p class="food-price">Price: &#8377; 250</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="menuMainContainer">
+              <div class="food-menu-items">
+                <div class="food-image">
+                  <img src="https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="menu-picture">
+                </div>
+                <div class="food-discription">
+                  <h2 class="food-tittle">Food Menu Item 4</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, inventore!</p>
+                  <p class="food-price">Price: &#8377; 250</p>
+                </div>
+              </div>
+      
+              <div class="food-menu-items">
+                <div class="food-image">
+                  <img src="https://images.pexels.com/photos/793772/pexels-photo-793772.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="menu-picture">
+                </div>
+                <div class="food-discription">
+                  <h2 class="food-tittle">Food Menu Item 5</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, inventore!</p>
+                  <p class="food-price">Price: &#8377; 250</p>
+                </div>
+              </div>
+  
+              <div class="food-menu-items">
+                <div class="food-image">
+                  <img src="https://images.pexels.com/photos/2271730/pexels-photo-2271730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="menu-picture">
+                </div>
+                <div class="food-discription">
+                  <h2 class="food-tittle">Food Menu Item 6</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, inventore!</p>
+                  <p class="food-price">Price: &#8377; 250</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-----------------------------------------------TESTMONIAL-----------------------------------------------> 
+        <section id="testmonial">
+          <div class="testmonials-container container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-10 col-xl-8 text-center">
+                <h3 class="mb-4 testmonials-heading">What Our Customers Say</h3>
+              </div>
+            </div>
+          
+            <div class="row text-center">
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex justify-content-center mb-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                    class="rounded-circle shadow-1-strong" style="width: 120px; height: 120px; border-radius: 50%;" width="150" height="150" />
+                </div>
+                <h5 class="mb-3 testmonials-text">Maria Smantha</h5>
+                <h6 class="text-success mb-3 testmonials-text">Web Developer</h6>
+                <p class="px-xl-3" style="font-size: 1.6em;">
+                  <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                  tenetur.
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                  <li>
+                    <i class="fa fa-star checked"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star checked"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star checked"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star checked"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star-half-alt "></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex justify-content-center mb-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                    class="rounded-circle shadow-1-strong" style="width: 120px; height: 120px; border-radius: 50%;" width="150" height="150" />
+                </div>
+                <h5 class="mb-3 testmonials-text">Lisa Cudrow</h5>
+                <h6 class="text-success mb-3 testmonials-text">Graphic Designer</h6>
+                <p class="px-xl-3"  style="font-size: 1.6em;">
+                  <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
+                  exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-0">
+                <div class="d-flex justify-content-center mb-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                    class="rounded-circle shadow-1-strong" style="width: 120px; height: 120px; border-radius: 50%;" width="150" height="150" />
+                </div>
+                <h5 class="mb-3 testmonials-text">John Smith</h5>
+                <h6 class="text-success mb-3 testmonials-text">Marketing Specialist</h6>
+                <p class="px-xl-3"  style="font-size: 1.6em;">
+                  <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio
+                  dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="far fa-star fa-sm text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-----------------------------------------------CONTACT-----------------------------------------------> 
+        <section id="contact">
+          <div class="contact-container container">
+            <div class="container">
+              <div id="newtask">
+                  <label for="">Food Name</label> 
+                  <input type="text" placeholder="Food Name"id="input1">
+
+                  <label for="">Price</label> 
+                  <input type="text" placeholder="Price"id="input2">
+
+                  <label for="">Quantity</label> 
+                  <input type="text" placeholder="Quantity"id="input3">
+
+                  <button id="push">Add</button>
+              </div>
+              <div id="tasks">
+      
+              </div>
+          </div>
+          </div>
+        </section>
+          <!-----------------------------------------------FOOTER-----------------------------------------------> 
+        <footer class=" text-center text-lg-start" id="footer" style="background-color: rgb(65, 65, 65);">
+          <!-- Copyright -->
+          <div class="text-center p-3 text-white" style="background-color: rgb(65, 65, 65);">
+           Restraunt Website © all rights reserved
+          </div>
+          <!-- Copyright -->
+        </footer>
+
+ 
+
+     <script src="../JS/ResponsiveWeb1.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
